@@ -232,9 +232,10 @@
   \expandafter\newcommand\csname #1\endcsname[1][\baselinestretch]{%
     \thu@choosefont{##1}{#2}}}
 \thu@define@fontsize{dachu}{53pt}
+\thu@define@fontsize{siwupt}{45pt}
 \thu@define@fontsize{chuhao}{42pt}
 \thu@define@fontsize{xiaochu}{36pt}
-\thu@define@fontsize{yihao}{28pt}
+\thu@define@fontsize{yihao}{26pt}
 \thu@define@fontsize{xiaoyi}{24pt}
 \thu@define@fontsize{erhao}{22pt}
 \thu@define@fontsize{xiaoer}{18pt}
@@ -900,7 +901,7 @@
     \begin{center}
     \includegraphics[scale=0.9]{supply/figures/hust_label.png}\\[1.3cm]
     \vspace{-0.8cm}
-    \ziju{5bp}\dachu[1]{\bfseries \zhongsong \HUST@apply} \\%\CJKfamily{fzcs}
+    \ziju{5bp}\siwupt[1]{\bfseries \zhongsong \HUST@apply} \\%\CJKfamily{fzcs}
     \vspace{-0.4cm}
     \ziju{1bp}\bf{\xiaosan[1]{( 学术型$\mbox{\ooalign{$\checkmark$\cr\hidewidth$\square$\hidewidth\cr}}$ $\quad \quad$ 专业型$\square$ )}}
     \end{center}}\\
