@@ -254,7 +254,8 @@
 %% 正文小四号（12pt）字，行距为固定值18 pt，22/12=1.67倍行距 行间距不小于三分之二字高度
 %\renewcommand\normalsize{\fontsize{12pt}{18pt}\selectfont}
 % \renewcommand\normalsize{\fontsize{12pt}{20pt}\selectfont}
-\renewcommand\normalsize{\fontsize{12pt}{23.1pt}\selectfont}
+% \renewcommand\normalsize{\fontsize{12pt}{23.1pt}\selectfont}
+\renewcommand\normalsize{\fontsize{12pt}{23.3pt}\selectfont}%依据word的测量，23.3的行间距与，1.5倍行间距的效果是一样的
 \renewcommand\small{\fontsize{10.5pt}{17.5pt}\selectfont}
 
 % 加载此宏包以支持并排图形，打开 config 选项以兼容过时宏包
